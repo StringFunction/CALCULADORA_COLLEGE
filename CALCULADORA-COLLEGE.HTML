@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+            border-radius: 50%;
+            text-align: center;
+            width: 304px;
+            padding: 10px;
+            
+        }
+        table{
+            width: 400px;
+            height: 500px;
+            border-radius: 10px;
+            padding: 6px;
+            
+            
+        }
+        .primeira{
+            background-color: Gainsboro;
+            color: black;
+        }
+        .ultima{
+            background-color: #FF8C00;
+        }
+        .restante{
+            background-color: Gray;
+            opacity: 60%;
+
+        }
+        .restante:hover{
+            opacity: 100%;
+        }
+        .resultado{
+            border: none;
+            font-size: 50px;
+        }
+        .zero{
+           border-radius: 50px;
+       
+           position: relative;
+           
+        }
+       
+    </style>
+</head>
+<body style="background-color: gray;">
+    <div class="Negrito">
+        <ul>
+        <li><a href="">Contato</a></li>
+        <li><a href="">Sobre</a></li>
+        <li><a href="">Quem samos</a></li>
+        </ul>
+    </div>
+<table border="1" style="background: black; color: white;">
+    <tr>
+        <!-- <td colspan="4">CALCULADORA</td> -->
+    </tr>
+    <tr>
+     <td colspan="4" class="resultado" style="text-align: right;">4+5</td>
+    </tr>
+    <tr>
+        <td class="btn primeira">C</td>
+        <td class="btn primeira"><</td>
+        <td class="btn primeira">%</td>
+        <td class="btn  ultima">/</td>
+    </tr>
+    <tr>
+        <td class="btn restante">7</td>
+        <td class="btn restante">8</td>
+        <td class="btn restante">9</td>
+        <td class="btn ultima">x</td>
+    </tr>
+    <tr>
+        <td class="btn restante">4</td>
+        <td class="btn restante">5</td>
+        <td class="btn restante">6</td>
+        <td class="btn ultima">-</td>
+    </tr>
+    <tr>
+        <td class="btn restante">1</td>
+        <td class="btn restante">2</td>
+        <td class="btn restante">3</td>
+        <td class="btn ultima" >+</td>
+    </tr>
+    <tr>
+        <td class="btn restante zero" colspan="2">0</td>
+        <td class="btn restante">.</td>
+        <td class="btn ultima">=</td>
+    </tr>
+</table>
+</body>
+</html>
